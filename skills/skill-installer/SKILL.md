@@ -34,6 +34,7 @@ description: 为通用 AI 助手安装技能。当用户请求列出可用技能
 - **Codex** (OpenAI)
 - **Roo Code**
 - **Claude Code**
+- **KiloCode**
 - **VS Code Copilot**
 - **Cursor**
 

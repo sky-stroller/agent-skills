@@ -78,6 +78,23 @@
 
 **优先级**: `project` > `global`
 
+## KiloCode
+
+文档: https://kilo.ai/docs/agent-behavior/skills
+
+### 支持的作用域
+
+| 作用域 | 目录路径 | 说明 |
+|--------|---------|------|
+| `global` | `~/.kilocode/skills` (macOS/Linux)<br>`%USERPROFILE%\.kilocode\skills` (Windows) | 用户全局技能 |
+| `project` | `.kilocode/skills` | 项目技能 |
+| `global-mode` | `~/.kilocode/skills-{mode}` | 全局模式特定技能 |
+| `project-mode` | `.kilocode/skills-{mode}` | 项目模式特定技能 |
+
+**优先级**: `project-mode` > `project` > `global-mode` > `global`
+
+**模式示例**: `code`, `architect` 等
+
 ## 通用说明
 
 ### 路径变量

@@ -43,6 +43,7 @@ Skill Installer 是一个通用的技能安装工具，帮助用户从各种来�
 - **Codex** (OpenAI) - 5 个作用域
 - **Roo Code** - 4 个作用域（含模式特定）
 - **Claude Code** - 4 个作用域
+- **KiloCode** - 4 个作用域（含模式特定）
 - **VS Code Copilot** - 4 个作用域
 - **Cursor** - 2 个作用域
 
@@ -260,6 +261,15 @@ python scripts/install-skill.py \
 |--------|---------|------|
 | `global` | `~/.cursor/skills` | 用户全局技能 |
 | `project` | `.cursor/skills` | 项目技能 |
+
+### KiloCode
+
+| 作用域 | 目录路径 | 说明 |
+|--------|---------|------|
+| `global` | `~/.kilocode/skills` | 用户全局技能 |
+| `project` | `.kilocode/skills` | 项目技能 |
+| `global-mode` | `~/.kilocode/skills-{mode}` | 全局模式特定技能 |
+| `project-mode` | `.kilocode/skills-{mode}` | 项目模式特定技能 |
 
 ## 故障排除
 
