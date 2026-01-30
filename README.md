@@ -13,6 +13,7 @@
     - [1. 📦 Skill Creator (技能创建器)](#1--skill-creator-技能创建器)
     - [2. 🔧 Skill Installer (技能安装器)](#2--skill-installer-技能安装器)
     - [3. 🗄️ SQLite DB Ops (SQLite 数据库操作)](#3-️-sqlite-db-ops-sqlite-数据库操作)
+    - [4. 🤖 OMO Model Manager (oh-my-opencode 模型管理器)](#4--omo-model-manager-oh-my-opencode-模型管理器)
   - [快速开始](#快速开始)
     - [在 AI 助手中使用技能](#在-ai-助手中使用技能)
     - [标准技能结构](#标准技能结构)
@@ -70,6 +71,14 @@
 **位置**: [`skills/sqlite-db-ops/`](skills/sqlite-db-ops/)
 **详细文档**: [查看完整说明 →](docs/sqlite-db-ops.md)
 
+### 4. 🤖 OMO Model Manager (oh-my-opencode 模型管理器)
+
+管理 oh-my-opencode 的 agent 和 category 模型配置，便于在提供商订阅变更时快速调整。
+
+**核心功能**: 查看配置、修改模型、批量替换提供商、查看可用模型
+**位置**: [`skills/omo-model-manager/`](skills/omo-model-manager/)
+**详细文档**: [查看完整说明 →](docs/omo-model-manager.md)
+
 ## 快速开始
 
 ### 在 AI 助手中使用技能
@@ -94,6 +103,7 @@
 - **初次使用**：先查看你使用的 AI 助手的技能文档
 - **安装技能**：阅读 [Skill Installer](docs/skill-installer.md) 了解如何安装技能
 - **了解技能**：阅读 [SQLite DB Ops](docs/sqlite-db-ops.md) 了解技能示例
+- **管理 oh-my-opencode 模型**：阅读 [OMO Model Manager](docs/omo-model-manager.md) 调整 agent/category 模型配置
 - **创建技能**：阅读 [Skill Creator](docs/skill-creator.md) 学习技能开发
 
 ### 标准技能结构
